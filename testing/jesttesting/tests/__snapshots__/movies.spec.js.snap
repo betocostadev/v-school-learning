@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorite Movies can add a movie 1`] = `
+[
+  {
+    "rate": null,
+    "title": "Age of Ultron",
+  },
+  {
+    "rate": 5,
+    "title": "Gladiator",
+  },
+  {
+    "rate": null,
+    "title": "Kung Fury",
+  },
+]
+`;
+
+exports[`Favorite Movies rate a movie 1`] = `
+[
+  {
+    "rate": 3,
+    "title": "Age of Ultron",
+  },
+  {
+    "rate": 5,
+    "title": "Gladiator",
+  },
+]
+`;
